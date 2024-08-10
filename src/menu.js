@@ -1,8 +1,6 @@
 let loadMenuPage = function() {
     const content = document.querySelector("div#content");
 
-    document.body.removeChild(content);
-
     const menuDiv = document.createElement("div");
     menuDiv.setAttribute("id", "menu");
 
@@ -22,6 +20,8 @@ let loadMenuPage = function() {
     menuDiv.appendChild(menuItem2);
     menuDiv.appendChild(menuItem3);
     menuDiv.appendChild(menuItem4);
+
+    content.appendChild(menuDiv);
 
     document.body.appendChild(content);
 }
