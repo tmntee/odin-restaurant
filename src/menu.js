@@ -25,3 +25,6 @@ let loadMenuPage = function() {
 
     document.body.appendChild(content);
 }
+
+
+export { loadMenuPage };
