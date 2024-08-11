@@ -1,6 +1,6 @@
 let loadHomePage = function() {
 
-    const content = document.querySelector("div#content");
+    const content = document.createElement("div");
 
     const headline = document.createElement("h1");
     headline.textContent = "Come Eat at Kirby's Kitchen!!!";
@@ -17,7 +17,7 @@ let loadHomePage = function() {
 
     content.appendChild(kirbyImage);
 
-    document.body.appendChild(content);
+    return content;
 }
 
 export { loadHomePage };
