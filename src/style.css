@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'helvetica-rounded-black';
+    src: url('./helvetica-rounded-black.otf');
+    font-style: normal;
+}
+
+* {
+    font-family: 'helvetica-rounded-black', Arial, Helvetica, sans-serif;
+}
