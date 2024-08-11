@@ -1,6 +1,7 @@
 let loadHomePage = function() {
 
     const content = document.createElement("div");
+    content.classList.add("main-content");
 
     const headline = document.createElement("h1");
     headline.textContent = "Come Eat at Kirby's Kitchen!!!";

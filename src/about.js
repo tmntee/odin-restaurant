@@ -1,5 +1,6 @@
 let loadAboutPage = function() {
     const content = document.createElement("div");
+    content.classList.add("main-content");
 
     const header = document.createElement("h1");
     header.textContent = "About Kirby's restaurant!";

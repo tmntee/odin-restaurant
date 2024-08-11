@@ -1,5 +1,6 @@
 let loadMenuPage = function() {
     const content = document.querySelector("div#content");
+    content.classList.add("main-content");
 
     const menuDiv = document.createElement("div");
     menuDiv.setAttribute("id", "menu");

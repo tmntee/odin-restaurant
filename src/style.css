@@ -7,3 +7,9 @@
 * {
     font-family: 'helvetica-rounded-black', Arial, Helvetica, sans-serif;
 }
+
+body, .main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
